@@ -1,5 +1,8 @@
 import React from "react";
 
-export default () => (
-     <h1>Primerio COmponente</h1>
+export default props => (
+    <h1>Primeiro Componente</h1>
+)
+export const Segundo = props => (
+    <h2>Oi {props.value}</h2>
 )
