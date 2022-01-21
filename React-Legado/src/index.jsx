@@ -4,5 +4,6 @@ import Primeiro,{ Segundo } from './componente'
 import SilvaFamily from './silvaFamily'
 import Family from './family'
 import Member from './member'
-ReactDOM.render(<div><Primeiro /><Family lastName="Santos"><Member name='Maria' lastName='Santos'/></Family><Segundo /></div>, document.getElementById('app'))
+import Field from './field'
+ReactDOM.render(<Field initialValue='Oi'/>, document.getElementById('app'))
 
