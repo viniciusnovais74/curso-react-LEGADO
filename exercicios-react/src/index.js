@@ -9,11 +9,13 @@ import ComponenteComFuncao from './components/ComponenteComFuncao'
 import Pai from './components/Pai'
 import ComponenteClasse from './components/ComponenteClasse'
 import Contador from './components/Contador'
+import Hooks from './components/Hooks'
 const app = document.getElementById('root')
 
 ReactDOM.render(
     <>
     <Pai/>
+    <Hooks/>
     <Contador numeroInicial={0}/>
         <MultiComponents value='Bom dia' />
         <Familia sobrenome='Pereira'>
