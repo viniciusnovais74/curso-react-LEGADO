@@ -6,17 +6,10 @@ import FamiliaSantos from './components/FamiliaSantos'
 import Familia from './components/Familia'
 import Membro from './components/Membro'
 import ComponenteComFuncao from './components/ComponenteComFuncao'
-import Pai from './components/Pai'
-import ComponenteClasse from './components/ComponenteClasse'
-import Contador from './components/Contador'
-import Hooks from './components/Hooks'
 const app = document.getElementById('root')
 
 ReactDOM.render(
     <>
-    <Pai/>
-    <Hooks/>
-    <Contador numeroInicial={0}/>
         <MultiComponents value='Bom dia' />
         <Familia sobrenome='Pereira'>
             <Membro nome='Andre' />
@@ -24,7 +17,6 @@ ReactDOM.render(
         </Familia>
         <FamiliaSantos sobrenome='Santos' />
         <ComponenteComFuncao/>
-        <ComponenteClasse valor='Oi'/>
         </>
 
     , app)
